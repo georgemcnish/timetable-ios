@@ -59,4 +59,4 @@ def rainbowMode():
 	        TT.setColour(primary, secondary)
 	        time.sleep(0.1)
 ```
-**Note** that this code example is fairly buggy
+**Note:** As of right now, this example is fairly buggy. This shouldn’t be run in a widget setting as you may face resource usage errors due to the high consumption of the finite resources allocated within a today widget.
