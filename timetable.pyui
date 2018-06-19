@@ -1,0 +1,186 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 53}, {348, 37}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "lbl_out0",
+          "frame" : "{{105, 259}, {150, 32}}",
+          "uuid" : "433DAD2A-C61F-4D7D-BBF9-0F3CB7EEE98E",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Label",
+          "font_size" : 33,
+          "font_name" : "HelveticaNeue-Bold"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 98}, {348, 37}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "lbl_out1",
+          "frame" : "{{105, 259}, {150, 32}}",
+          "uuid" : "50FC1ECE-8B49-4841-9B35-EEA13BA98CBA",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Label",
+          "font_size" : 33,
+          "font_name" : "HelveticaNeue-Bold"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 143}, {348, 37}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "lbl_out2",
+          "frame" : "{{105, 259}, {150, 32}}",
+          "uuid" : "F40C3311-76CD-44BF-9DAB-C3ACB474F5B4",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Label",
+          "font_size" : 33,
+          "font_name" : "HelveticaNeue-Bold"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 188}, {348, 37}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "lbl_out3",
+          "frame" : "{{105, 259}, {150, 32}}",
+          "uuid" : "5B28415D-4A82-45A3-9694-BE9D4CE2BB0C",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Label",
+          "font_size" : 33,
+          "font_name" : "HelveticaNeue-Bold"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 233}, {348, 37}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "lbl_out4",
+          "frame" : "{{105, 259}, {150, 32}}",
+          "uuid" : "1FB55FDF-0DE1-4BD3-8373-37CD5EAD47E6",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Label",
+          "font_size" : 33,
+          "font_name" : "HelveticaNeue-Bold"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{274, 6}, {80, 41}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "",
+          "border_width" : 2,
+          "frame" : "{{140, 259}, {80, 32}}",
+          "title" : "Switch",
+          "uuid" : "DB267644-56F6-49AC-94F8-FAA4BBBB2262",
+          "class" : "Button",
+          "corner_radius" : 5,
+          "font_bold" : true,
+          "name" : "btn_switch",
+          "font_size" : 24
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 286}, {348, 33}}",
+        "class" : "SegmentedControl",
+        "attributes" : {
+          "border_width" : 2,
+          "flex" : "LR",
+          "segments" : "M|T|W|T|F|S|S",
+          "frame" : "{{120, 261}, {120, 29}}",
+          "action" : "",
+          "uuid" : "D64E098C-2E36-46EE-88AE-386B0CF665BD",
+          "class" : "SegmentedControl",
+          "corner_radius" : 5,
+          "name" : "seg_day"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 327}, {348, 33}}",
+        "class" : "SegmentedControl",
+        "attributes" : {
+          "uuid" : "436122BB-54B9-418E-B748-F21197F17052",
+          "font_size" : 33,
+          "corner_radius" : 5,
+          "frame" : "{{120, 261}, {120, 29}}",
+          "segments" : "Week A|Week B",
+          "border_width" : 2,
+          "alignment" : "left",
+          "action" : "",
+          "text" : "Label",
+          "font_name" : "HelveticaNeue-Bold",
+          "class" : "SegmentedControl",
+          "name" : "seg_week",
+          "flex" : "LR"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 6}, {260, 41}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "lbl_title",
+          "frame" : "{{105, 259}, {150, 32}}",
+          "uuid" : "8CB96EEA-07E4-4B8F-BE61-4283E7EA803A",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Timetable",
+          "font_size" : 37,
+          "font_name" : "HelveticaNeue-BoldItalic"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {360, 380}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
