@@ -24,16 +24,16 @@ timetable = {'MondayA': {'P1': '','P2': '','P3': '','P4': '','P5': ''},
              'SundayB': {'P1': '','P2': '','P3': '','P4': '','P5': ''}}
 
 # Day Structure - Stores all of the Timings of the Day
-timings = {'normal': {'P1': [[8,50],[9,50]],'P2': [[9,53],[10,53]],'P3': [[11,33],[12,33]],'P4': [[13,11],[14,11]],'P5': [[14,14],[15,14]]},
-           'alternative': {'P1': [[8,50],[9,50]],'P2': [[10,30],[11,30]],'P3': [[12,8],[13,8]],'P4': [[13,11],[14,11]],'P5': [[00,00],[00,00]]}}
+timings = {'normal': {'P1': [[00,00],[00,00]],'P2': [[00,00],[00,00]],'P3': [[00,00],[00,00]],'P4': [[00,00],[00,00]],'P5': [[00,00],[00,00]]},
+           'alternative': {'P1': [[00,00],[00,00]],'P2': [[00,00],[00,00]],'P3': [[00,00],[00,00]],'P4': [[00,00],[00,00]],'P5': [[00,00],[00,00]]}}
 
 # Main class, used to interface with the user interface
 class timetableOutput:
-    # On initialization of the class, the view is created and all default values are entered
+    # On initialisation of the class, the view is created and all default values are entered
     def __init__(self, timetable, timings, alternative, colour_primary, colour_secondary):
-        # Create a list of all of the weekdays, to crossreference with the various UI elements
+        # Create a list of all of the weekdays, to cross-reference with the various UI elements
         self.dayList = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
-        # Create a list of all the selectable weeks, to crossreference with the various UI elements
+        # Create a list of all the selectable weeks, to cross-reference with the various UI elements
         self.weekList = ['A', 'B']
         # Load the View
         self.view = ui.load_view()
