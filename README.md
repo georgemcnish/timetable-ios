@@ -1,5 +1,8 @@
 # Timetable
 This is a timetable intended to be used as a iOS widget paired with [Pythonista 3](http://omz-software.com/pythonista/).
+## Requirements
+- An iOS device running iOS 9 or newer
+- Pythonista 3
 ## Installation
 1. Place the timetable.py and timetable.pyui in a **local** directory (do not place into iCloud synced folder).
 2. Set the script as the today widget in the Pythonista settings.
