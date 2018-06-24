@@ -1,6 +1,6 @@
 # Python Timetable V2
 # By George McNish
-
+# https://github.com/georgemcnish/timetable-ios
 
 from datetime import date, datetime
 import calendar, time, ui, appex
