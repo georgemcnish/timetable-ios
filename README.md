@@ -1,5 +1,5 @@
 # Timetable
-This is a timetable intended to be used as a iOS widget paired with [Pythonista 3](http://omz-software.com/pythonista/).
+This is a timetable intended to be used as a iOS widget paired with [Pythonista 3](http://omz-software.com/pythonista/). I found that there were no "decent" apps on the store which fully supported what I wanted from a timetable, so I made this.
 ## Requirements
 - An iOS device running iOS 9 or newer
 - A structured timetable
